@@ -102,7 +102,7 @@ export const App = () => {
   const [isMoreClicked, setIsMoreClicked] = useState(false);
 
   const submit = () => {
-    window.gtag("event", "5988_get_sub", {
+    window.gtag("event", "5987_get_sub", {
       variant_name: "5987_2",
     });
 
